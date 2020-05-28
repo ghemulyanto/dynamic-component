@@ -13,5 +13,5 @@ npm run serve
 
 Tri Mulyanto  
 Twitter: https://twitter.com/ghemulyanto    
-PayPal.me: https://paypal.me/maoberlehner  
+Email: trimulyanto.tm@gmail.com  
 Patreon: https://www.patreon.com/maoberlehner
