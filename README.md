@@ -11,7 +11,7 @@ npm run serve
 ## About
 ### Author
 
-Tri Mulyanto
+Tri Mulyanto 
 Twitter: https://twitter.com/ghemulyanto
 Email: trimulyanto.tm@gmail.com
 
