@@ -1,4 +1,6 @@
-# VueJS Create dynamic text-field component when button clicked
+# VueJS Create dynamic component
+> Create dynamic component when user click button  
+(./public/dynamic_component.gif)
 
 ## Project setup
 ```
