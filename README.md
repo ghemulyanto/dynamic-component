@@ -1,6 +1,7 @@
 # VueJS Create dynamic component
 > Create dynamic component when user click button  
-(./public/dynamic_component.gif)
+
+![vue-input-ui](./public/dynamic_component.gif)
 
 ## Project setup
 ```
