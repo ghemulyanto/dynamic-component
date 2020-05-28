@@ -1,28 +1,42 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <v-container>
+      <v-text-field
+        v-for="(text,index) in texts"
+        :key="index"
+        placeholder="Text"
+        v-model="text.name"
+        outlined
+        :append-outer-icon="'mdi-close-circle-outline'"
+        @click:append-outer="deleteComponent(index)"
+      ></v-text-field>
+
+      <v-btn v-on:click="addComponent" color="indigo" text outlined>Add</v-btn>
+    </v-container>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
+  name: "App",
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+  data() {
+    return {
+      texts: [
+        {
+          name: ""
+        }
+      ]
+    };
+  },
+  methods: {
+    addComponent() {
+      this.texts.push({ name: "" });
+    },
+    deleteComponent(index) {
+      this.texts.splice(index, 1);
+    }
+  }
+};
+</script>
+ 
