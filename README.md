@@ -1,4 +1,4 @@
-# Create dynamic text-field component when button cliked
+# Create dynamic text-field component when button clicked
 
 ## Project setup
 ```
