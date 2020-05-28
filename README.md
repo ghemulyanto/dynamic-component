@@ -12,8 +12,6 @@ npm run serve
 ### Author
 
 Tri Mulyanto  
-Website: https://markus.oberlehner.net  
-Twitter: https://twitter.com/MaOberlehner  
-PayPal.me: https://paypal.me/maoberlehner  
-Patreon: https://www.patreon.com/maoberlehner
+Twitter: https://twitter.com/ghemulyanto
+Email: trimulyanto.tm@gmail.com
 
